@@ -10,7 +10,7 @@ function toggleAccordion(number){
 }
 
 document.addEventListener("keypress", function(e) {
-    if (e.key === "Enter" && e.target.classList.contains("accordion-head")) {
+    if (e.key === "Enter" && e.target.classList.contains("accordion")) {
       e.preventDefault(); // Prevent the default behavior of the Enter key
       e.target.click();
     }

@@ -52,7 +52,7 @@ The JS code below allows for the answers to show/hide when the enter key is pres
 
 ```js
 document.addEventListener("keypress", function(e)){
-  if(e.key == "Enter" && e.target.classList.contains("accordion-head")){
+  if(e.key == "Enter" && e.target.classList.contains("accordion")){
     e.preventDefault();
     e.target.click();
   })
